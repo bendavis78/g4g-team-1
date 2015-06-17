@@ -1,4 +1,37 @@
 h1 {
     color: SpringGreen;
     text-align: center;
+    font-size: 50pt;
+    border: 7px dotted DarkMagenta;
+}
+h2 {
+    color: MidnightBlue;
+    text-align: center;
+}
+ul li {
+    font-style: italic;
+    color: MidnightBlue;
+    font-size: 15pt;
+}
+.my-outer-section {
+    border: 3px solid Black;
+}
+.my-outer-section {
+    background:Lime;
+    padding: 13px;
+    margin: 13px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    padding: 7px;
+    margin: 10px;
+    background: Red;
+}
+nav ul li a {
+    color: OldLace;
 }

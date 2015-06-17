@@ -1,5 +1,104 @@
+body {
+    background: whitesmoke;
+}
+
 h1   { 
     color: darkgoldenrod;
-    text-align: center;}
+    text-align: center;
+    font-size: 50pt;
+    border-bottom: 5px dashed black;
+}
     
+h2 { 
+     color: darkgoldenrod; 
+     text-align: center;
+}
+
+.cta {
+    font-size: 30pt;
+    padding: 30px;
+    background: red;
+    width: 50%;
+    color: whitesmoke;
+    text-align: center;
+    margin:0 auto;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.cta:hover  {
+    color: firebrick;
+}
+
+.cta a { 
+    color: white;
+    text-decoration: none;
+}
     
+h3  { 
+    color: midnightblue;
+    font-size: 50pt ;
+}
+
+ul li {
+    font-style: italic;
+}
+
+.my-outer-section {
+   display: flex; 
+}
+
+.my-outer-section section {
+    padding: 15px;
+    margin: 20px;
+    width: 50%;
+    max-width: 50%;
+    text-align: center;
+}
+
+.my-outer-section section ul {
+    list-style: none;
+    font-size: 40pt ;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    background: black;
+    padding: 5px;
+    margin:  10px;
+}
+
+nav ul li a {
+    color: white ;
+}
+
+section video {
+    width: 100%;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

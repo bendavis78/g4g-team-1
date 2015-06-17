@@ -1,4 +1,53 @@
 h1 { 
+    color:royalblue;
+    text-align: center;
+    font-size:50pt;
+    border-bottom: 2px solid orange;
+    
+}
+
+.first-heading { 
+    color:deepskyblue;
+}
+
+.first-ol {
+    font-style:italic;
+    color:mediumpurple;
+}
+
+.second-ol {
+    color:orangered;
+}
+
+.outer-box {
+    border: 2px dotted coral;
+   
+}
+
+.second-heading {
     color:red;
-    text-align:center;
+}
+
+.outer-box section {
+    background: yellow;
+    padding: 15px;
+    margin: 20px;
+}
+
+nav ul {
+    list-style:none;
+    margin: 0;
+    padding:0;
+    display: flex;
+}
+
+nav ul li {
+    background:skyblue;
+    padding: 5px;
+    margin: 10px;
+    font-style:italic;
+}
+
+nav ul li a {
+    color: white;
 }

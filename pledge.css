@@ -1,0 +1,26 @@
+h1 {
+    color: MediumAquamarine;
+    text-align: center;
+    font-size: 75pt;
+    border: 7px solid Black;
+}
+
+p {
+    font-size: 20pt;
+    padding: 15px;
+    background: red;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    padding: 7px;
+    margin: 10px;
+    background: SlateBlue;
+}
+nav ul li a {
+    color: Black;
+}
