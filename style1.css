@@ -1,12 +1,14 @@
 body {
-    background: whitesmoke;
+    background: lightblue;
+    border: dashed 10pt ;
+    border-color: whitesmoke;
+    border-radius: 50px;
 }
 
 h1   { 
     color: darkgoldenrod;
     text-align: center;
     font-size: 50pt;
-    border-bottom: 5px dashed black;
 }
     
 h2 { 
@@ -19,7 +21,7 @@ h2 {
     padding: 30px;
     background: red;
     width: 50%;
-    color: whitesmoke;
+    color: lightblue;
     text-align: center;
     margin:0 auto;
     border-radius: 15px;
@@ -31,7 +33,7 @@ h2 {
 }
 
 .cta a { 
-    color: white;
+    color: lightblue;
     text-decoration: none;
 }
     
@@ -83,22 +85,4 @@ nav ul li a {
 section video {
     width: 100%;
 } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
